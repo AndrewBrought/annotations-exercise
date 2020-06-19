@@ -31,6 +31,7 @@ public class Author extends Person {
     }
 
     @Override
+    @SuppressWarnings("all")
     public String fullName() {
         return String.format("%s, %s", lastName, firstName);
     }
